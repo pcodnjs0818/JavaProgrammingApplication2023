@@ -1,3 +1,5 @@
+package version01;
+
 public class PokemonGame {
     public static void main(String[] args) {
         Pokemon pikachu = new Pokemon();
@@ -13,8 +15,7 @@ public class PokemonGame {
         charizard.hp = 800;
 
         System.out.println(charizard.name + "의 체력은 " + charizard.hp + "이고 레벨은 " + charizard.level + "입니다");
-        charizard.evolve(charizard);
-        pikachu.evolve(pikachu);
-        pikachu.evolve(pikachu);
+        charizard.evolve(charizard.level);
+        pikachu.evolve(pikachu.level);
     }
 }

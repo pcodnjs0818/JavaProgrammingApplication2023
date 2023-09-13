@@ -1,3 +1,5 @@
+package version02;
+
 public class PokemonGame {
     public static void main(String[] args) {
         Pokemon pikachu = new Pokemon();

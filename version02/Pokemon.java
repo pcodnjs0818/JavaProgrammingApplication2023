@@ -1,3 +1,5 @@
+package version02;
+
 public class Pokemon {
     // fields, 멤버 변수, 속성
     String name;
